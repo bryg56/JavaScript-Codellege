@@ -1,0 +1,16 @@
+.size-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.size-car {
+    display: block;
+    width: 10%;
+    /* position: absolute; */
+    /* height: 50px; */
+}
+
+.size-container * {
+    position: absolute;
+}

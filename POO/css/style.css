@@ -1,14 +1,14 @@
 body {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     width: 100vw;
     height: 100vh;
 }
 
 .contenedor {
     background: rgb(189, 186, 186);
-    width: 90vw;
+    /* width: 90vw; */
     height: 90vh;
     position: relative;
 }

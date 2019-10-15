@@ -23,9 +23,13 @@ class Proyectil {
         return velocidadY;
     }
     crearSpan(posicionX, posicionY) {
+        // document.getElementById('contenedor').removeChild(spanCreado);
         let spanCreado = document.createElement('span');
         spanCreado.style.left = `${posicionX}%`;
         spanCreado.style.bottom = `${posicionY}%`;
         document.getElementById('contenedor').appendChild(spanCreado);
+    }
+    borrar() {
+        document.getElementById('contenedor').innerHTML = ` <span style="bottom: 0%; left:0%"></span>`;
     }
 }
